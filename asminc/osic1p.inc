@@ -1,11 +1,3 @@
-; Addresses
-RESET           := $FF00        ; Reset address, show boot prompt
-KBD             := $DF00        ; Polled keyboard register
-
-
-
-
-
 ; ----------------------------------------------------------------------------
 zp_bas_JmpWarm                    :=  $0000
 zp_bas_MsgPrint                   :=  $0003
